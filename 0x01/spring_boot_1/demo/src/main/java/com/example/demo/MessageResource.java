@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value="/messages")
-public class MessageResources {
+public class MessageResource {
     @GetMapping("/simpleMessageWelcome")
     public String simpleMessageWelcome() {
         // TODO
