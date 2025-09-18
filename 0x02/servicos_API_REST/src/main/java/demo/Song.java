@@ -63,12 +63,12 @@ public class Song {
 
     @Override
     public String toString() {
-        return "{" +
-                "\"id\":" + id + "," +
-                "\"nome\":\"" + nome + "\"," +
-                "\"artista\":\"" + artista + "\"," +
-                "\"album\":\"" + album + "\"," +
-                "\"anoLancamento\":\"" + anoLancamento + "\"" +
-                "}\n";
+        return "{\n" +
+                "    \"id\": " + id + ",\n" +
+                "    \"nome\": \"" + nome + "\",\n" +
+                "    \"artista\": \"" + artista + "\",\n" +
+                "    \"album\": \"" + album + "\",\n" +
+                "    \"anoLancamento\": \"" + anoLancamento + "\"\n" +
+                "}";
     }
 }
