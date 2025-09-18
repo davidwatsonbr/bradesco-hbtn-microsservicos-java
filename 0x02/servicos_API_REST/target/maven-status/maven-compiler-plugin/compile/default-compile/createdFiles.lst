@@ -1,4 +1,4 @@
-com/example/demo/SongController.class
-com/example/demo/SongRepository.class
-com/example/demo/Song.class
-com/example/demo/SongapiApplication.class
+src/main/java/demo/SongController.class
+src/main/java/demo/SongapiApplication.class
+src/main/java/demo/Song.class
+src/main/java/demo/SongRepository.class
