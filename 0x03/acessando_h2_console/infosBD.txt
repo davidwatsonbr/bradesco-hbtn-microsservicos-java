@@ -1,3 +1,4 @@
 1. jdbc:h2:file:./bd/demobd
 2. User: sa
 3. Password: 123456
+Admin
