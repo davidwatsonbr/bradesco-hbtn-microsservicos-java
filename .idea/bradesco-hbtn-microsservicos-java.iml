@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/0x02/servicos_API_REST" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/0x03/criando_spring_boot_JPA/demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0x03/acessando_h2_console/demo/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
