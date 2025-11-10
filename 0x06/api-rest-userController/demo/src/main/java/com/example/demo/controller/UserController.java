@@ -4,6 +4,8 @@ import com.example.demo.exception.UserIdException;
 import com.example.demo.exception.UserNameException;
 import com.example.demo.exception.CPFException;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
 @RequestMapping(value="/users")
@@ -20,7 +22,7 @@ public class UserController {
     @GetMapping("/user-name/{userName}")
     public String findUserByName(@PathVariable String userName) {
         String msg = "You have entered valid USERNAME";
-        if (userName.length() =< 3 || username.length() >= 15) {
+        if (userName.length() <= 3 || userName.length() >= 15) {
             throw new UserNameException("You have entered invalid USERNAME");
         }
         return msg;

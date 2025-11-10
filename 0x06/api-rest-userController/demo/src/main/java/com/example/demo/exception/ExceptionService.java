@@ -3,6 +3,10 @@ package com.example.demo.exception;
 import com.example.demo.exception.CPFException;
 import com.example.demo.exception.UserErrorResponse;
 
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.http.ResponseEntity;
+
 @ControllerAdvice
 public class ExceptionService {
     @ExceptionHandler
